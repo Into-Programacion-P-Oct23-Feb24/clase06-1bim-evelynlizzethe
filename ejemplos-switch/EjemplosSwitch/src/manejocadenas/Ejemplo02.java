@@ -15,6 +15,7 @@ public class Ejemplo02 {
         String pais;
         
         pais = "Ecuador";
+        // Permite crear una variable nueva a partir de la variable String. 
         char letra = pais.charAt(0);
         System.out.printf("%s\n", letra);
         
