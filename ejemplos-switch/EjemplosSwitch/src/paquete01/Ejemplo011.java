@@ -27,37 +27,37 @@ public class Ejemplo011 {
         
         switch(cadena){
             case "lunes":
-                System.out.printf("%s\nes el primer dia de la semana ", 
+                System.out.printf("%s, es el primer dia de la semana\n", 
                         cadena);
                 break;
             
             case "martes":
-                System.out.printf("%s\nes el segundo dia de la semana", 
+                System.out.printf("%s, es el segundo dia de la semana\n", 
                         cadena);
                 break;
             
             case "miercoles":
-                System.out.printf("%s\nes el tercer dia de la semana"
+                System.out.printf("%s, es el tercer dia de la semana\n"
                         , cadena);
                 break;
             
             case "jueves":
-                System.out.printf("%s\nes el cuarto dia de la semana"
+                System.out.printf("%s, es el cuarto dia de la semana\n"
                         , cadena);
                 break;
                 
             case "viernes":
-                System.out.printf("%s\nes el quinto dia de la semana", 
+                System.out.printf("%s es el quinto dia de la semana\n", 
                         cadena);
                 break;
             
             case "sabado":
-                System.out.printf("%s\nes el sexto dia de la semana"
+                System.out.printf("%s es el sexto dia de la semana\n"
                         , cadena);
                 break;
                 
             case "domingo":
-                System.out.printf("%s\nes el septimo dia de la semana"
+                System.out.printf("%s, es el septimo dia de la semana\n"
                         , cadena);
                 break; 
                 
