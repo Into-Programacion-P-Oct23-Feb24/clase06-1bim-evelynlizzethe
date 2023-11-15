@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author reroes
  */
-public class Ejemplo01 {
+public class Ejemplo011 {
 
     /**
      * @param args the command line arguments
@@ -23,13 +23,14 @@ public class Ejemplo01 {
         System.out.println("Ingrese el nombre del día de la semana");
         String cadena = entrada.nextLine();
         
+        cadena = cadena.toLowerCase();
+        
         switch(cadena){
-            case "Lunes":
+            case "lunes":
                 System.out.printf("%s\nes el primer dia de la semana ", 
                         cadena);
                 break;
             
-            case "Martes":
             case "martes":
                 System.out.printf("%s\nes el segundo dia de la semana", 
                         cadena);
@@ -45,8 +46,6 @@ public class Ejemplo01 {
                         , cadena);
                 break;
                 
-            case "Viernes":
-            case "VIERNES":
             case "viernes":
                 System.out.printf("%s\nes el quinto dia de la semana", 
                         cadena);
@@ -57,7 +56,7 @@ public class Ejemplo01 {
                         , cadena);
                 break;
                 
-            case "Domingo":
+            case "domingo":
                 System.out.printf("%s\nes el septimo dia de la semana"
                         , cadena);
                 break; 
